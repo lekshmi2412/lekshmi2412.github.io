@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-info h1 {
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.job ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+.contact-form {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-form form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #c0392b;
+}
